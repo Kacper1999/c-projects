@@ -1,0 +1,3 @@
+rozmiar tablicy wspolnej zmieniam na taki rozmiar ktory faktycznie mamy do dyspozycji, dodalem sleep(2) zeby dalo sie cos odczytac, 
+rozne procesy moga losowac te same liczby ze wzgledu na odstep czasowy pomiedzy forkami. 
+Program jest zapętlony trzeba go przerwac poprzez ^C wtedy zwolnia sie nase icps (semafory i pamiec)

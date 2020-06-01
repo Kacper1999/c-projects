@@ -1,0 +1,3 @@
+ma.txt mb.txt mc.txt
+0-1
+1-2

@@ -1,0 +1,280 @@
+// does were measurement without concurrent safty -> result will be almost always wrong 
+
+./images/apollonian_gasket.ascii.pgm sign 1 0
+thread: 0, time: 1739 ms
+
+whole time: 2064 ms
+
+./images/apollonian_gasket.ascii.pgm block 1 0
+thread: 0, time: 983 ms
+
+whole time: 1326 ms
+
+./images/apollonian_gasket.ascii.pgm int 1 0
+thread: 0, time: 1021 ms
+
+whole time: 1342 ms
+
+./images/apollonian_gasket.ascii.pgm sign 2 0
+thread: 0, time: 1472 ms
+thread: 1, time: 2671 ms
+
+whole time: 2833 ms
+
+./images/apollonian_gasket.ascii.pgm block 2 0
+thread: 0, time: 1265 ms
+thread: 1, time: 1295 ms
+
+whole time: 1571 ms
+
+./images/apollonian_gasket.ascii.pgm int 2 0
+thread: 0, time: 1506 ms
+thread: 1, time: 1488 ms
+
+whole time: 1879 ms
+
+./images/apollonian_gasket.ascii.pgm sign 4 0
+thread: 0, time: 1153 ms
+thread: 1, time: 1977 ms
+thread: 2, time: 1921 ms
+thread: 3, time: 3240 ms
+
+whole time: 3869 ms
+
+./images/apollonian_gasket.ascii.pgm block 4 0
+thread: 0, time: 745 ms
+thread: 1, time: 1032 ms
+thread: 2, time: 1123 ms
+thread: 3, time: 1124 ms
+
+whole time: 1309 ms
+
+./images/apollonian_gasket.ascii.pgm int 4 0
+thread: 0, time: 1285 ms
+thread: 1, time: 1220 ms
+thread: 2, time: 1368 ms
+thread: 3, time: 1367 ms
+
+whole time: 1626 ms
+
+./images/apollonian_gasket.ascii.pgm sign 8 0
+thread: 0, time: 2126 ms
+thread: 1, time: 1901 ms
+thread: 2, time: 1757 ms
+thread: 3, time: 3030 ms
+thread: 4, time: 3595 ms
+thread: 5, time: 2242 ms
+thread: 6, time: 2267 ms
+thread: 7, time: 3089 ms
+
+whole time: 4057 ms
+
+./images/apollonian_gasket.ascii.pgm block 8 0
+thread: 0, time: 775 ms
+thread: 1, time: 792 ms
+thread: 2, time: 894 ms
+thread: 3, time: 798 ms
+thread: 4, time: 885 ms
+thread: 5, time: 356 ms
+thread: 6, time: 831 ms
+thread: 7, time: 374 ms
+
+whole time: 1408 ms
+
+./images/apollonian_gasket.ascii.pgm int 8 0
+thread: 0, time: 871 ms
+thread: 1, time: 1051 ms
+thread: 2, time: 769 ms
+thread: 3, time: 1051 ms
+thread: 4, time: 768 ms
+thread: 5, time: 995 ms
+thread: 6, time: 800 ms
+thread: 7, time: 801 ms
+
+whole time: 1241 ms
+
+./images/balloons_noisy.ascii.pgm sign 1 0
+thread: 0, time: 1667 ms
+
+whole time: 2020 ms
+
+./images/balloons_noisy.ascii.pgm block 1 0
+thread: 0, time: 823 ms
+
+whole time: 1151 ms
+
+./images/balloons_noisy.ascii.pgm int 1 0
+thread: 0, time: 857 ms
+
+whole time: 1204 ms
+
+./images/balloons_noisy.ascii.pgm sign 2 0
+thread: 0, time: 2471 ms
+thread: 1, time: 2100 ms
+
+whole time: 2638 ms
+
+./images/balloons_noisy.ascii.pgm block 2 0
+thread: 0, time: 2415 ms
+thread: 1, time: 2411 ms
+
+whole time: 2766 ms
+
+./images/balloons_noisy.ascii.pgm int 2 0
+thread: 0, time: 2461 ms
+thread: 1, time: 2692 ms
+
+whole time: 3371 ms
+
+./images/balloons_noisy.ascii.pgm sign 4 0
+thread: 0, time: 3981 ms
+thread: 1, time: 4312 ms
+thread: 2, time: 3066 ms
+thread: 3, time: 1837 ms
+
+whole time: 5126 ms
+
+./images/balloons_noisy.ascii.pgm block 4 0
+thread: 0, time: 1866 ms
+thread: 1, time: 1628 ms
+thread: 2, time: 1882 ms
+thread: 3, time: 1610 ms
+
+whole time: 2043 ms
+
+./images/balloons_noisy.ascii.pgm int 4 0
+thread: 0, time: 2146 ms
+thread: 1, time: 2174 ms
+thread: 2, time: 1893 ms
+thread: 3, time: 1853 ms
+
+whole time: 2344 ms
+
+./images/balloons_noisy.ascii.pgm sign 8 0
+thread: 0, time: 2925 ms
+thread: 1, time: 3910 ms
+thread: 2, time: 3957 ms
+thread: 3, time: 3757 ms
+thread: 4, time: 3073 ms
+thread: 5, time: 2560 ms
+thread: 6, time: 1814 ms
+thread: 7, time: 1253 ms
+
+whole time: 4299 ms
+
+./images/balloons_noisy.ascii.pgm block 8 0
+thread: 0, time: 1145 ms
+thread: 1, time: 1186 ms
+thread: 2, time: 1266 ms
+thread: 3, time: 1227 ms
+thread: 4, time: 1255 ms
+thread: 5, time: 1232 ms
+thread: 6, time: 500 ms
+thread: 7, time: 492 ms
+
+whole time: 1713 ms
+
+./images/balloons_noisy.ascii.pgm int 8 0
+thread: 0, time: 1206 ms
+thread: 1, time: 1199 ms
+thread: 2, time: 1205 ms
+thread: 3, time: 1174 ms
+thread: 4, time: 1207 ms
+thread: 5, time: 1208 ms
+thread: 6, time: 667 ms
+thread: 7, time: 684 ms
+
+whole time: 2058 ms
+
+./images/casablanca.ascii.pgm sign 1 0
+thread: 0, time: 838 ms
+
+whole time: 1111 ms
+
+./images/casablanca.ascii.pgm block 1 0
+thread: 0, time: 432 ms
+
+whole time: 757 ms
+
+./images/casablanca.ascii.pgm int 1 0
+thread: 0, time: 492 ms
+
+whole time: 798 ms
+
+./images/casablanca.ascii.pgm sign 2 0
+thread: 0, time: 913 ms
+thread: 1, time: 665 ms
+
+whole time: 1061 ms
+
+./images/casablanca.ascii.pgm block 2 0
+thread: 0, time: 631 ms
+thread: 1, time: 609 ms
+
+whole time: 1113 ms
+
+./images/casablanca.ascii.pgm int 2 0
+thread: 0, time: 768 ms
+thread: 1, time: 762 ms
+
+whole time: 1302 ms
+
+./images/casablanca.ascii.pgm sign 4 0
+thread: 0, time: 826 ms
+thread: 1, time: 1139 ms
+thread: 2, time: 701 ms
+thread: 3, time: 819 ms
+
+whole time: 1309 ms
+
+./images/casablanca.ascii.pgm block 4 0
+thread: 0, time: 522 ms
+thread: 1, time: 537 ms
+thread: 2, time: 594 ms
+thread: 3, time: 533 ms
+
+whole time: 1021 ms
+
+./images/casablanca.ascii.pgm int 4 0
+thread: 0, time: 881 ms
+thread: 1, time: 733 ms
+thread: 2, time: 856 ms
+thread: 3, time: 739 ms
+
+whole time: 1354 ms
+
+./images/casablanca.ascii.pgm sign 8 0
+thread: 0, time: 1352 ms
+thread: 1, time: 1365 ms
+thread: 2, time: 1259 ms
+thread: 3, time: 1224 ms
+thread: 4, time: 1198 ms
+thread: 5, time: 1012 ms
+thread: 6, time: 544 ms
+thread: 7, time: 512 ms
+
+whole time: 1567 ms
+
+./images/casablanca.ascii.pgm block 8 0
+thread: 0, time: 391 ms
+thread: 1, time: 372 ms
+thread: 2, time: 382 ms
+thread: 3, time: 397 ms
+thread: 4, time: 372 ms
+thread: 5, time: 365 ms
+thread: 6, time: 288 ms
+thread: 7, time: 290 ms
+
+whole time: 1173 ms
+
+./images/casablanca.ascii.pgm int 8 0
+thread: 0, time: 657 ms
+thread: 1, time: 623 ms
+thread: 2, time: 705 ms
+thread: 3, time: 543 ms
+thread: 4, time: 699 ms
+thread: 5, time: 666 ms
+thread: 6, time: 451 ms
+thread: 7, time: 467 ms
+
+whole time: 1583 ms

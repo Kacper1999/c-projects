@@ -1,0 +1,96 @@
+lib copy with 3000 records 1 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+sys copy with 3000 records 1 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+lib sort with 3000 records 1 length each:
+	sys time: 0.890000
+	usr time: 1.620000
+
+sys sort with 3000 records 1 length each:
+	sys time: 2.830000
+	usr time: 2.700000
+
+lib copy with 3000 records 4 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+sys copy with 3000 records 4 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+lib sort with 3000 records 4 length each:
+	sys time: 0.890000
+	usr time: 1.510000
+
+sys sort with 3000 records 4 length each:
+	sys time: 2.690000
+	usr time: 2.510000
+
+lib copy with 3000 records 512 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+sys copy with 3000 records 512 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+lib sort with 3000 records 512 length each:
+	sys time: 1.420000
+	usr time: 1.780000
+
+sys sort with 3000 records 512 length each:
+	sys time: 3.150000
+	usr time: 2.630000
+
+lib copy with 3000 records 1024 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+sys copy with 3000 records 1024 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+lib sort with 3000 records 1024 length each:
+	sys time: 1.830000
+	usr time: 1.890000
+
+sys sort with 3000 records 1024 length each:
+	sys time: 3.460000
+	usr time: 2.430000
+
+lib copy with 3000 records 4096 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+sys copy with 3000 records 4096 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+lib sort with 3000 records 4096 length each:
+	sys time: 4.530000
+	usr time: 2.850000
+
+sys sort with 3000 records 4096 length each:
+	sys time: 4.650000
+	usr time: 2.480000
+
+lib copy with 3000 records 8192 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+sys copy with 3000 records 8192 length each:
+	sys time: 0.000000
+	usr time: 0.000000
+
+lib sort with 3000 records 8192 length each:
+	sys time: 4.630000
+	usr time: 2.820000
+
+sys sort with 3000 records 8192 length each:
+	sys time: 4.420000
+	usr time: 2.310000
+

@@ -1,0 +1,16 @@
+fork:
+    dziedziczy:
+        ignore
+        handler
+        mask
+    nie:
+        procesy ktore byly pending w przodku
+
+exec:
+    dziedziczy:
+        ignore
+        mask
+    nie:
+        procesy ktore byly pending w przodku
+        handler
+        

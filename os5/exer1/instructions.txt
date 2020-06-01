@@ -1,0 +1,2 @@
+echo "halo" | wc -c
+ls -l | wc -l

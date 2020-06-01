@@ -1,0 +1,2 @@
+żeby upewnić się że poczekalnia bedzie pełna można zakomentować 27 linię w main.c
+po czym: make clean; make; ./main

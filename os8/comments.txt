@@ -1,0 +1,2 @@
+if we pass 5 arguments to main (input_file_path, mode, threads_num, output_file_path, anything)
+function wont be concurrent safe and almost always will give us wrong results
